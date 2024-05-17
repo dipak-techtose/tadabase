@@ -460,7 +460,6 @@ table td {
 .acct-admin-layout .navbar-nav .active span,
 .acct-admin-layout .navbar-nav .active a i {
     font-weight: bold !important;
-    border-bottom: 1px solid #FFF ;
 }
 .acct-admin-layout .navbar-nav .dropdown-menu {
     background-color: var(--primary-color) !important;

@@ -738,3 +738,10 @@ table .btn-warning:hover {
     text-transform: capitalize;
     color: var(--text-color);
 }
+
+
+#x_element_page_44_4 {
+    background-color: var(--white);
+    padding: 20px 20px 30px 20px !important;
+    margin-top: 30px;
+}

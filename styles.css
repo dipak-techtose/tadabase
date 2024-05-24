@@ -341,6 +341,11 @@ table .btn-success {
 .table-wrap {
     overflow-x: auto;
 }
+.table-actions button, .table-action-wrap button {
+    color:var(--white) !important;
+    background: var(--primary-color) !important;
+    background-image: none;
+}
 
 .tb-no-record-found {
     justify-content: center;

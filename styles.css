@@ -815,22 +815,31 @@ button:disabled::after {
 .btn-default,
 .btn-outline {
     background-color: var(--primary-color) !important; /* Blue */
+    color: var(--white) !important;
 }
 
 .btn-info {
     background-color: rgb(23, 162, 184) !important; /* Cyan */
+    color: var(--white) !important;
+
 }
 
 .btn-danger {
     background-color: rgb(220, 53, 69) !important; /* Red */
+    color: var(--white) !important;
+
 }
 
 .btn-success {
     background-color: rgb(40, 167, 69) !important; /* Green */
+    color: var(--white) !important;
+
 }
 
 .btn-warning {
     background-color: rgb(255, 193, 7) !important; /* Yellow */
+    color: var(--white) !important;
+
 }
 
 .btn:hover,

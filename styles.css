@@ -940,3 +940,7 @@ button:disabled::after {
     padding: 20px 20px 30px 20px !important;
     margin-top: 30px;
 }
+
+.field-name table {
+    margin: 0 !important;
+}

@@ -89,10 +89,11 @@
 }
 .card:hover {
     box-shadow: 0 4px 10px #Cacaca;
-    background: #DEE6FD;
+    /* background: #DEE6FD; */
+    transform: translateY(-2px);
 }
 
-.card:hover:before {
+/* .card:hover:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -103,9 +104,9 @@
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0);
     animation: ripple-effect 0.6s forwards;
-}
+} */
 
-@keyframes ripple-effect {
+/* @keyframes ripple-effect {
     from {
         transform: translate(-50%, -50%) scale(0);
         opacity: 1;
@@ -114,7 +115,7 @@
         transform: translate(-50%, -50%) scale(10);
         opacity: 0;
     }
-}
+} */
 
 
 .card i {

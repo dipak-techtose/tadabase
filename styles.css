@@ -563,11 +563,6 @@ table .btn-success {
         transform 0.3s ease; /* Transition for color and transform */
 }
 
-.nav-tabs > li > a:hover {
-    color: #000; /* Darken text on hover */
-    transform: translateY(-2px); /* Slight lift effect on hover */
-}
-
 /* Specific styling for active tab */
 .nav-tabs > li.active > a {
     color: #333; /* Darker text for active tab */
@@ -580,23 +575,6 @@ table .btn-success {
     transform: scale(1.05); /* Slightly enlarge the active tab */
 }
 
-/* Animation for content appearance - Assuming content sections are adjacent */
-.tab-content {
-    display: none; /* Default hidden */
-    animation: fadeIn 0.5s ease forwards; /* Animation when tab content changes */
-}
-
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 .modal-footer {
     display: flex;
@@ -630,7 +608,7 @@ table .btn-success {
     font-weight: 500 !important;
 }
 
-button {
+/* button {
     font-size: 13px !important;
     border: none !important;
     font-weight: 600 !important;
@@ -654,7 +632,31 @@ button {
     align-self: center;
     text-align: center;
     justify-content: center;
-}
+} */
+
+button {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #3a6cf55b;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+  }
+  
+  button:active {
+    background-color: #0a3c61;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+  }
+  
 
 table .btn {
     font-size: 13px !important;
@@ -710,7 +712,7 @@ table .btn-warning:hover {
     margin-bottom: 15px !important;
 }
 .x-type-print-button .fullwidth{
-    background-color: #191d36 !important;
+    background-color: #1855ff !important;
     width: 100% !important;
     font-weight: 500 !important;
 }
